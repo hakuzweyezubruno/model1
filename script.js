@@ -17,6 +17,7 @@ btn.addEventListener("click",function (){
 // overLay.addEventListener("click",removeOveray())
 overLay.addEventListener("click",close);
 closeBtn.addEventListener("click",close);
+model.addEventListener("click",close);
 function close() {
     overLay.classList.toggle("hidden");
     model.classList.toggle("hidden");
